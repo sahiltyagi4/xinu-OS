@@ -1,0 +1,5 @@
+Q.) Does your program output any garbage? If yes, why?
+A.) No.
+
+Q.) Are all the produced values getting consumed? Check your program for a small count like 20.
+A.) No all the values emitted by the producer do not reach the consumer. The values emiited at consumer end are for a fixed 'count' value, and that too in multiple iterations of the for loop.
